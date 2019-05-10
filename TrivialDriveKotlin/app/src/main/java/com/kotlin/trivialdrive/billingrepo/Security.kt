@@ -71,12 +71,7 @@ object Security {
      * of their own and then fake messages from the server.
      */
 
-    val BASE_64_ENCODED_PUBLIC_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArEaiCq7os9cmF" +
-            "+i564+pIOiSOVZa/LRzu0K79Dg6wKWjnJ1PkHAa4ZOJ81KrxyFk3q3UiJ3lNsTCdW216+KKdKp+YCOFLs" +
-            "sN+4FKjFBqY9lJbm6uuxZ9cPugMOTVFrVlmreYyhIY4jysfo4+LeyEmB7D20X7M+7diCRBEIsOY9lA2ne" +
-            "OtD6j0BR4rhLGR3xjN0LGrhCCdbw42+eIkc/awbY7FypLMJjbAmEnNBe1tlOxxX6ZgspwAlY8XjnX832l" +
-            "xxHdnuJKSPGtYCQLSt/LYc/go90/kc/U+oPtQy/KgCiQEcKeIL1a6AB294JDogkHuqRIeXIu1n4sAfzG" +
-            "cshrJQIDAQAB"
+    val BASE_64_ENCODED_PUBLIC_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnfo/rUCyhm39o4bSlLKZHSa3JQNUiB9XvW7n1NcOMfZdEsZ0ZEXE0poo8maPZAR28EiwcH3/O/ZLt4v2R3OnujOJsiz5Ddhm8Po6QCh5RdF1lo39wuESQB9lW9W60ELUpZRlxsVE8hQ159vHQ+pdy8HBMKrCBrh1NAy6IOaBXkIFjpClyFGbYU7r13vbdf33TQEGJFZkzIWsY3meH7FuMmuHNf2t6jhu/Ar2dcXWo8AqtjwihwOPjaJyaI4Dp7t1vr89sY7BLcWPmdbAwcDY5ef6hoSREA8qx4QBrpoejarUIVnNWfQa1el6ZcotpzWtTuJbhmigIbb5aC5w/na6nwIDAQAB"
 
     /**
      * Verifies that the data was signed with the given signature
